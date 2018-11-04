@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Aggregates
+namespace CQRSHelper
 {
     /// <summary>
     /// Aggregate base class

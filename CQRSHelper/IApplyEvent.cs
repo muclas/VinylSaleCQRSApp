@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Aggregates
+namespace CQRSHelper
 {
     /// <summary>
     /// Implemented by an aggregate once for each event type it can apply.
