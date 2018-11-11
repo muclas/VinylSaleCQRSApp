@@ -9,12 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace ReadService.Controllers
 {
     [Produces("application/json")]
-    [Route("api/StaticData")]
+    [Route("/StaticData")]
     public class StaticDataController : Controller
     {
-        // GET api/StaticData/VinylItems
         [HttpGet]
-        [Route("/api/StaticData/VinylItems")]
+        [Route("/StaticData/VinylItems")]
         public IEnumerable<VinylItemDTO> GetVinylItems()
         {
             return new List<VinylItemDTO>

@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSHelper", "CQRSHelper\CQRSHelper.csproj", "{D3D471AB-644F-40C3-84B2-D8488E900BA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylSaleService", "VinylSaleService\VinylSaleService.csproj", "{81AF721F-A3DF-487E-BC10-C5AA23158F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{D3AE43F4-06EE-44C5-A7A2-748710FD24A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{D3D471AB-644F-40C3-84B2-D8488E900BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3D471AB-644F-40C3-84B2-D8488E900BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3D471AB-644F-40C3-84B2-D8488E900BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AF721F-A3DF-487E-BC10-C5AA23158F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AF721F-A3DF-487E-BC10-C5AA23158F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AF721F-A3DF-487E-BC10-C5AA23158F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AF721F-A3DF-487E-BC10-C5AA23158F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AE43F4-06EE-44C5-A7A2-748710FD24A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AE43F4-06EE-44C5-A7A2-748710FD24A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AE43F4-06EE-44C5-A7A2-748710FD24A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AE43F4-06EE-44C5-A7A2-748710FD24A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

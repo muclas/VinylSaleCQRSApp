@@ -1,0 +1,16 @@
+﻿@model Commands.WebShop.OpenCart
+
+@{
+    ViewData["Title"] = "OpenCart";
+}
+
+<h2>Open Cart</h2>
+
+@using (Html.BeginForm())
+{
+    <label>User name:</label>
+    @Html.TextBoxFor(m => m.Customer)
+
+    <br/>
+    <button type="submit" class="btn">Open Cart</button>
+}

@@ -1,0 +1,13 @@
+﻿@model List<DTO.VinylItemDTO>
+
+<h2>What do you want to buy?</h2>
+
+@foreach (var item in Model)
+    {
+        <div>Artist: @item.Artist</div>
+        <div>Title: @item.Title</div>
+        <div>Released Year: @item.ReleasedYear</div>
+        <a asp-action="Add" asp-route-id="@item.ItemNumber">Buy this</a>
+        <hr />
+    }
+

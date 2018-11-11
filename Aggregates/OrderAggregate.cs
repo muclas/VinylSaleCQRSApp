@@ -1,4 +1,5 @@
 ﻿using Commands.WebShop;
+using CQRSHelper;
 using Events.WebShop;
 using System;
 using System.Collections;
@@ -25,6 +26,11 @@ namespace Aggregates
 
         public IEnumerable Handle(OpenCart c)
         {
+            if (open)
+            {
+                throw new CartAlreadyOpen();
+            }
+
             yield return new CartOpened
             {
                 Id = c.Id,

@@ -12,8 +12,7 @@ namespace CQRSHelper
             public ArrayList Events;
         }
 
-        private ConcurrentDictionary<Guid, Stream> store =
-            new ConcurrentDictionary<Guid, Stream>();
+        private ConcurrentDictionary<Guid, Stream> store = new ConcurrentDictionary<Guid, Stream>();
 
         public IEnumerable LoadEventsFor<TAggregate>(Guid id)
         {

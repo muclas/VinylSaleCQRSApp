@@ -4,6 +4,10 @@ using System.Text;
 
 namespace Commands.WebShop
 {
+    public class CartAlreadyOpen : Exception
+    {
+    }
+
     public class CartNotOpen : Exception
     {
     }

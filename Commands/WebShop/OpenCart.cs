@@ -7,6 +7,6 @@ namespace Commands.WebShop
     public class OpenCart
     {
         public Guid Id;
-        public string Customer;
+        public string Customer { get; set; }
     }
 }
